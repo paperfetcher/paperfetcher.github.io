@@ -1,3 +1,5 @@
+# Paperfetcher
+
 # What is paperfetcher?
 Paperfetcher is a set of tools to automate time-intensive parts of the systematic review process. At v1.0, paperfetcher automates hand-search and snowball-search.
 To learn more, read our preprint (coming soon!).
