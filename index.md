@@ -19,21 +19,26 @@ Click on the links below to open the apps in your browser.
 
 ### Video tutorials
 
-We have video tutorials demonstrating how to run and use these apps. Check these out!
+We have video tutorials demonstrating how to run and use these apps. Click on the video thumbnails to open them in YouTube!
 
 1. Hand-search version A:
 
    [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/o3S5hyQSyME/0.jpg)](https://www.youtube.com/watch?v=o3S5hyQSyME)
    
-2. Hand-search version B
-3. Snowball-search
+2. Hand-search version B:
+
+   Coming soon!
+   
+4. Snowball-search:
+
+   Coming soon!
 
 ## I'm okay with setup, but no Python coding. | I want to store my data offline.
 
 The setup process involves a couple of steps:
-1. [Install Python]()
-2. [Install pip]()
-3. [Install Jupyter notebook]()
+1. [Install Python](https://www.python.org/downloads/) (skip this step if you already have Python 3.7+ installed)
+2. [Install pip](https://pip.pypa.io/en/stable/installation/) (skip this step if you installed Python from python.org)
+3. [Install Jupyter notebook or JupyterLab](https://jupyter.org/)
 4. Install Paperfetcher using pip by typing this command in a new Terminal (MacOS, Linux) or Command Prompt (Windows) window:
 
         pip install paperfetcher
@@ -46,16 +51,16 @@ The setup process involves a couple of steps:
 ## I know some Python. | I want to experiment with using the code.
 
 Setup Paperfetcher:
-1. [Install Python]()
-2. [Install pip]()
-3. [Install Jupyter notebook]()
+1. [Install Python](https://www.python.org/downloads/) (skip this step if you already have Python 3.7+ installed)
+2. [Install pip](https://pip.pypa.io/en/stable/installation/) (skip this step if you installed Python from python.org)
+3. [Install Jupyter notebook or JupyterLab](https://jupyter.org/)
 4. Install Paperfetcher using pip:
 
         pip install paperfetcher
 
-Check out the [example Jupyter notebooks]() for step-by-step usage guides.
+Check out the [example Jupyter notebooks](https://github.com/paperfetcher/paperfetcher/tree/master/examples) for step-by-step usage guides.
 
-Check out the [Paperfetcher documentation]().
+Check out the [Paperfetcher documentation](https://paperfetcher.github.io/paperfetcher/).
 
 ## I'm comfortable with Python. | I want to add custom features to Paperfetcher.
 
@@ -69,7 +74,7 @@ or
 
         pip install .
 
-Check out the [Paperfetcher documentation]().
+Check out the [Paperfetcher documentation](https://paperfetcher.github.io/paperfetcher/).
 
 If you wish to contribute to a Paperfetcher repository, fork the repository, make your changes, and create a pull request. The organization administrators will review your pull request within 1-2 weeks.
 
