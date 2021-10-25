@@ -70,10 +70,6 @@ Install Paperfetcher from source:
         
         python setup.py install
 
-or
-
-        pip install .
-
 Check out the [Paperfetcher documentation](https://paperfetcher.github.io/paperfetcher/).
 
 If you wish to contribute to a Paperfetcher repository, fork the repository, make your changes, and create a pull request. The organization administrators will review your pull request within 1-2 weeks.
