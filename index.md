@@ -72,7 +72,5 @@ Install Paperfetcher from source:
 
 Check out the [Paperfetcher documentation](https://paperfetcher.github.io/paperfetcher/).
 
-If you wish to contribute to a Paperfetcher repository, fork the repository, make your changes, and create a pull request. The organization administrators will review your pull request within 1-2 weeks.
-
 # The team
 Paperfetcher was formulated by [Qiyang Zhang](qiyangzh.github.io) at the [Johns Hopkins University](jhu.edu) and developed by [Akash Pallath](apallath.github.io) at the [University of Pennsylvania](upenn.edu).
