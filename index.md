@@ -1,9 +1,11 @@
 # Paperfetcher
 
 Paperfetcher is a set of tools to automate time-intensive parts of the systematic review process. At v1.0, Paperfetcher automates hand-search and snowball-search.
-To begin with, read our preprint (coming soon!).
+To begin with, read [our preprint](https://arxiv.org/pdf/2110.12490.pdf).
 
 Paperfetcher is free and open source, and is licensed under the [MIT License](https://github.com/paperfetcher/paperfetcher/blob/master/LICENSE). If you wish to use paperfetcher for your research, all we ask is that you cite our preprint.
+
+> Pallath and Zhang (2021). PaperFetcher: A tool to automate handsearch for systematic reviews. arXiv:2110.12490 [cs.IR]. [URL](https://arxiv.org/abs/2110.12490)
 
 # Getting started with Paperfetcher
 
