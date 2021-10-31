@@ -29,11 +29,11 @@ We have video tutorials demonstrating how to run and use these apps. Click on th
    
 2. Hand-search version B:
 
-   Coming soon!
+   [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/I3nvU0sw2n4/0.jpg)](https://www.youtube.com/watch?v=I3nvU0sw2n4)
    
 4. Snowball-search:
 
-   Coming soon!
+   [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/1Z9-nM4O-z0/0.jpg)](https://www.youtube.com/watch?v=1Z9-nM4O-z0)
 
 ## I'm okay with setup, but no Python coding. | I want to store my data offline.
 
