@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.88.1">
+    <title>Paperfetcher</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/starter-template/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!--Fontawesome-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <style>
+    .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+    }
+
+    @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+            font-size: 3.5rem;
+        }
+    }
+
+    .card-cover {
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        text-decoration: none;
+    }
+
+    .rounded-4 { border-radius: .5rem; }
+    .rounded-5 { border-radius: 1rem; }
+    </style>
+
+
+    <!-- Custom styles for this template -->
+    <link href="starter-template.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="col-lg-10 mx-auto p-3 py-md-5">
+        <main>
+            <div class="container my-5">
+                <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+                    <div class="col-lg-6 p-3 p-lg-5 pt-lg-3">
+                        <h1 class="display-4 fw-bold lh-1">Paperfetcher</h1>
+                        <p class="lead">Automate handsearch and snowballing for your systematic reviews.</p>
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+                            <a href="https://share.streamlit.io/paperfetcher/paperfetcher-web-app/main/paperfetcher_app.py" target="_blank" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">Launch web app</a>
+                            <a href="https://arxiv.org/pdf/2110.12490.pdf" target="_blank" class="btn btn-outline-secondary btn-lg px-4">Read our preprint</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 offset-lg-1 p-0 overflow-hidden">
+                        <img class="rounded-lg-3" src="images/app-screenshot.png" alt="" width="720">
+                    </div>
+                </div>
+            </div>
+
+            <div class="container my-5">
+
+                <h2 class="pb-2 border-bottom">Web-app features</h2>
+
+                <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+
+                    <div class="col d-flex align-items-start">
+                        <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+                            <i class="fas fa-lock-open"></i> <i class="fab fa-github"></i>
+                        </div>
+                        <div>
+                            <h2>Free and open source</h2>
+                            <p>Paperfetcher was developed by academics for academics. Our app is free and its <a href="https://github.com/paperfetcher/paperfetcher-web-app" target="_blank">source code</a> is publicly available on Github.</p>
+                        </div>
+                    </div>
+                    <div class="col d-flex align-items-start">
+                        <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+                            <i class="fas fa-hand-paper"></i> <i class="fas fa-search"></i>
+                        </div>
+                        <div>
+                            <h2>Powerful handsearch</h2>
+                            <p>Fetch batches of articles from 90,000+ journals indexed in Crossref.</p>
+                        </div>
+                    </div>
+                    <div class="col d-flex align-items-start">
+                        <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+                            <i class="fas fa-snowflake"></i> <i class="fas fa-search"></i>
+                        </div>
+                        <div>
+                            <h2>One-click snowballing</h2>
+                            <p>Forward and backward snowballing using over 1.2 billion DOI-to-DOI citations in the Crossref and COCI databases.</p>
+                        </div>
+                    </div>
+                    <div class="col d-flex align-items-start">
+                        <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+                            <i class="fas fa-file-export"></i> <i class="fas fa-copy"></i>
+                        </div>
+                        <div>
+                            <h2>Versatile data export</h2>
+                            <p>Export data in the RIS format, which can directly be imported into citation management and systematic review screening tools, or as a text file.</p>
+                        </div>
+                    </div>
+                    <div class="col d-flex align-items-start">
+                        <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+                            <i class="fas fa-cog"></i> <i class="fas fa-file"></i>
+                        </div>
+                        <div>
+                            <h2>Automatic reproducibility reports</h2>
+                            <p>Automatically generate reports of parameters used to perform handsearches and snowballing. Copy reports to clipboard with one click.</p>
+                        </div>
+                    </div>
+                    <div class="col d-flex align-items-start">
+                        <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+                            <i class="fas fa-file"></i> <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <div>
+                            <h2>Online or local execution</h2>
+                            <p>Choose between running the web app online or locally on your computer after <a href="https://github.com/paperfetcher/paperfetcher-web-app" target="_blank">a few steps of setup.</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <h2 class="pb-2 border-bottom">Paperfetcher's Python package</h2>
+
+                <p class="fs-5 col-md-12">Paperfetcher's web-app is powered by an easy-to-use and extensible Python package.
+                    You can write your own scripts for handsearch or snowballing using Paperfetcher's python package. You can export data to many more formats (CSV, Excel and pandas DataFrames), and add custom features. </p>
+
+                    <div class="row g-5">
+                        <div class="col-md-6">
+                            <h4>Get started.</h4>
+                            <ul class="icon-list">
+                                <li><a href="https://pypi.org/project/paperfetcher/" target="_blank">Package on PyPi</a></li>
+                                <li><a href="https://paperfetcher.github.io/paperfetcher/" target="_blank">Read the documentation</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-md-6">
+                            <h4>Explore the source code</h4>
+                            <ul class="icon-list">
+                                <li><a href="https://github.com/paperfetcher/paperfetcher" target="_blank">Python package source code on GitHub</a></li>
+                                <li><a href="https://github.com/paperfetcher/paperfetcher-web-app" target="_blank">Web-app source code on GitHub</a></li>
+                                <li><a href="https://paperfetcher.github.io/paperfetcher/" target="_blank">Read the documentation</a></li>
+                                <li><a href="http://arxiv.org/pdf/2110.12490.pdf" target="_blank">Read the preprint</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <h2 class="pb-2 border-bottom">Using Paperfetcher for research?</h2>
+
+                    <p class="fs-5 col-md-12">If you're using Paperfetcher for academic research, please cite us:</p>
+                    <div class="alert alert-secondary" role="alert">
+                        <p>Pallath, A., &amp; Zhang, Q. (2022). Paperfetcher: A tool to automate handsearch for systematic reviews. ArXiv:2110.12490 [CS, STAT]. <a href="http://arxiv.org/abs/2110.12490" target="_blank">http://arxiv.org/abs/2110.12490</a></p>
+                        <a href="https://zbib.org/8962054530dc430fa0aee2439bf89be4" target="_blank" class="btn btn-outline-primary btn-sm px-4 me-md-2">Cite with zoterobib</a>
+                    </div>
+
+                </div>
+            </main>
+
+            <div class="container my-5">
+                <footer class="pt-5 my-5 text-muted border-top">
+                    <a href="https://apallath.github.io" target="_blank">Akash Pallath</a> and <a href="https://qiyangzh.github.io" target="_blank">Qiyang Zhang</a> &middot; &copy; 2021
+                </footer>
+            </div>
+        </div>
+
+        <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+    </body>
+    </html>
